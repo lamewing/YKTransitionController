@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D29E03C1BF86EF90067A348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D29E03B1BF86EF90067A348 /* main.m */; };
+		8D29E03F1BF86EF90067A348 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D29E03E1BF86EF90067A348 /* AppDelegate.m */; };
+		8D29E0421BF86EF90067A348 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D29E0411BF86EF90067A348 /* FirstViewController.m */; };
+		8D29E0451BF86EF90067A348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D29E0431BF86EF90067A348 /* Main.storyboard */; };
+		8D29E0471BF86EF90067A348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D29E0461BF86EF90067A348 /* Assets.xcassets */; };
+		8D29E04A1BF86EF90067A348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D29E0481BF86EF90067A348 /* LaunchScreen.storyboard */; };
+		8D29E0541BF86F550067A348 /* YKTransitionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D29E0531BF86F550067A348 /* YKTransitionController.m */; settings = {ASSET_TAGS = (); }; };
+		8D29E0571BF88BDC0067A348 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D29E0561BF88BDC0067A348 /* SecondViewController.m */; settings = {ASSET_TAGS = (); }; };
+		8D29E05A1BF88C460067A348 /* UIViewController+YKTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D29E0591BF88C460067A348 /* UIViewController+YKTransition.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8D29E0371BF86EF90067A348 /* YKTransitionControllerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YKTransitionControllerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D29E03B1BF86EF90067A348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D29E03D1BF86EF90067A348 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8D29E03E1BF86EF90067A348 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8D29E0401BF86EF90067A348 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8D29E0411BF86EF90067A348 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8D29E0441BF86EF90067A348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D29E0461BF86EF90067A348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D29E0491BF86EF90067A348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D29E04B1BF86EF90067A348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D29E0521BF86F550067A348 /* YKTransitionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTransitionController.h; sourceTree = "<group>"; };
+		8D29E0531BF86F550067A348 /* YKTransitionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTransitionController.m; sourceTree = "<group>"; };
+		8D29E0551BF88BDC0067A348 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8D29E0561BF88BDC0067A348 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8D29E0581BF88C460067A348 /* UIViewController+YKTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+YKTransition.h"; sourceTree = "<group>"; };
+		8D29E0591BF88C460067A348 /* UIViewController+YKTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+YKTransition.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D29E0341BF86EF90067A348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D29E02E1BF86EF90067A348 = {
+			isa = PBXGroup;
+			children = (
+				8D29E0391BF86EF90067A348 /* YKTransitionControllerDemo */,
+				8D29E0381BF86EF90067A348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D29E0381BF86EF90067A348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D29E0371BF86EF90067A348 /* YKTransitionControllerDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D29E0391BF86EF90067A348 /* YKTransitionControllerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8D29E0511BF86F020067A348 /* YKTransitionController */,
+				8D29E03D1BF86EF90067A348 /* AppDelegate.h */,
+				8D29E03E1BF86EF90067A348 /* AppDelegate.m */,
+				8D29E0401BF86EF90067A348 /* FirstViewController.h */,
+				8D29E0411BF86EF90067A348 /* FirstViewController.m */,
+				8D29E0551BF88BDC0067A348 /* SecondViewController.h */,
+				8D29E0561BF88BDC0067A348 /* SecondViewController.m */,
+				8D29E0431BF86EF90067A348 /* Main.storyboard */,
+				8D29E0461BF86EF90067A348 /* Assets.xcassets */,
+				8D29E0481BF86EF90067A348 /* LaunchScreen.storyboard */,
+				8D29E04B1BF86EF90067A348 /* Info.plist */,
+				8D29E03A1BF86EF90067A348 /* Supporting Files */,
+			);
+			path = YKTransitionControllerDemo;
+			sourceTree = "<group>";
+		};
+		8D29E03A1BF86EF90067A348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D29E03B1BF86EF90067A348 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D29E0511BF86F020067A348 /* YKTransitionController */ = {
+			isa = PBXGroup;
+			children = (
+				8D29E0521BF86F550067A348 /* YKTransitionController.h */,
+				8D29E0531BF86F550067A348 /* YKTransitionController.m */,
+				8D29E0581BF88C460067A348 /* UIViewController+YKTransition.h */,
+				8D29E0591BF88C460067A348 /* UIViewController+YKTransition.m */,
+			);
+			path = YKTransitionController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D29E0361BF86EF90067A348 /* YKTransitionControllerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D29E04E1BF86EF90067A348 /* Build configuration list for PBXNativeTarget "YKTransitionControllerDemo" */;
+			buildPhases = (
+				8D29E0331BF86EF90067A348 /* Sources */,
+				8D29E0341BF86EF90067A348 /* Frameworks */,
+				8D29E0351BF86EF90067A348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKTransitionControllerDemo;
+			productName = YKTransitionControllerDemo;
+			productReference = 8D29E0371BF86EF90067A348 /* YKTransitionControllerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D29E02F1BF86EF90067A348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = lamewing;
+				TargetAttributes = {
+					8D29E0361BF86EF90067A348 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = 8D29E0321BF86EF90067A348 /* Build configuration list for PBXProject "YKTransitionControllerDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D29E02E1BF86EF90067A348;
+			productRefGroup = 8D29E0381BF86EF90067A348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D29E0361BF86EF90067A348 /* YKTransitionControllerDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D29E0351BF86EF90067A348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D29E04A1BF86EF90067A348 /* LaunchScreen.storyboard in Resources */,
+				8D29E0471BF86EF90067A348 /* Assets.xcassets in Resources */,
+				8D29E0451BF86EF90067A348 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D29E0331BF86EF90067A348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D29E0571BF88BDC0067A348 /* SecondViewController.m in Sources */,
+				8D29E0421BF86EF90067A348 /* FirstViewController.m in Sources */,
+				8D29E03F1BF86EF90067A348 /* AppDelegate.m in Sources */,
+				8D29E05A1BF88C460067A348 /* UIViewController+YKTransition.m in Sources */,
+				8D29E0541BF86F550067A348 /* YKTransitionController.m in Sources */,
+				8D29E03C1BF86EF90067A348 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D29E0431BF86EF90067A348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D29E0441BF86EF90067A348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D29E0481BF86EF90067A348 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D29E0491BF86EF90067A348 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D29E04C1BF86EF90067A348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D29E04D1BF86EF90067A348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D29E04F1BF86EF90067A348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKTransitionControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lamewing.YKTransitionControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D29E0501BF86EF90067A348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YKTransitionControllerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.lamewing.YKTransitionControllerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D29E0321BF86EF90067A348 /* Build configuration list for PBXProject "YKTransitionControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D29E04C1BF86EF90067A348 /* Debug */,
+				8D29E04D1BF86EF90067A348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D29E04E1BF86EF90067A348 /* Build configuration list for PBXNativeTarget "YKTransitionControllerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D29E04F1BF86EF90067A348 /* Debug */,
+				8D29E0501BF86EF90067A348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D29E02F1BF86EF90067A348 /* Project object */;
+}
